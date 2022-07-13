@@ -8,12 +8,6 @@ class Produto {
   double? preco;
 
   Produto({this.nome, this.preco = 0.99});
-
-  /*Produto(String nome, double preco) {
-    this.nome = nome;
-    this.preco = preco;
-  }
-  */
 }
 
 main() {
