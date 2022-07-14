@@ -1,6 +1,7 @@
-imprimirProduto(int qtde,{String? nome, double? preco}) {
-  for (var i = 0)
-  print('O produto ${nome} tem preço ${preco}.');
+imprimirProduto(int qtde, {String? nome, double? preco}) {
+  for (var i = 0; i < qtde; i++) {
+    print('O produto ${nome} tem preço ${preco}.');
+  }
 }
 
 class Produto {
@@ -19,5 +20,6 @@ main() {
   //print('O produto ${p1.nome} tem preço ${p1.preco}.');
   //print('O produto ${p2.nome} tem preço ${p2.preco}.');
 
-  imprimirProduto(nome: p1.nome!, preco: p1.preco!);
+  imprimirProduto(1, nome: p1.nome!, preco: p1.preco!);
+  imprimirProduto(20, preco: p2.preco!, nome: p2.nome!);
 }
