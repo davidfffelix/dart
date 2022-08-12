@@ -1,7 +1,7 @@
 bool seguirEmFrente = false;
 
-  if (seguirEmFrente) { // Verdadeiro
+  if (seguirEmFrente) { // True
   print('Andar');
-} else {              // Falso
+} else {              // False
   print('Parar');
 }
