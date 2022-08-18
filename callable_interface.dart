@@ -1,9 +1,8 @@
 void main() {
-bool seguirEmFrente = false;
-
-  if (seguirEmFrente) { // True
-  print('Andar');
-} else {              // False
-  print('Parar');
+  BuscarAlunos buscarAlunos = BuscarAlunos();
+  buscarAlunos();
 }
+
+class BuscarAlunos {
+  void call() => print('David, Ferreira, Felix');
 }
