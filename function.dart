@@ -1,8 +1,7 @@
-int soma(int a, int b) {
-  return a + b;
+void main() {
+  double resAreaCirculo = calAreaCirculo(20.5);
+  print(resAreaCirculo);
 }
 
-main() {
-  final r = soma(2, 3);
-  print('O valor da soma eh $r.');
+double calAreaCirculo(double raio) => 3.14 * raio * raio;
 }
